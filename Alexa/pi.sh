@@ -47,7 +47,7 @@ build_kwd_engine() {
   echo
 
   cd $THIRD_PARTY_PATH
-  git clone git@github.com:timjbruce/alexa-rpi.git
+  git clone https://github.com/timjbruce/alexa-rpi.git
   bash ./alexa-rpi/bin/license.sh
 }
 
